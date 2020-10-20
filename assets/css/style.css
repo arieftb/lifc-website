@@ -122,44 +122,82 @@ header {
 }
 
 section {
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
-section#news {
+#news {
     width: 80%;
     margin: auto;
 }
 
-section .news-item {
+.news-item {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 16px;
 }
 
-div.image-news {
+.image-news {
     flex-basis: 30%;
 }
 
-div.text-news {
+.text-news {
     display: flex;
     flex-direction: column;
     padding: 24px 24px 24px 24px;
 }
 
-div.text-news .title-news {
+.title-news {
     font-weight: bolder;
     color: #ba0006;
 }
 
-div.text-news .short-desciption-news {
+.short-desciption-news {
     color: #000000;
     font-size: 14px;
     margin-top: 12px;
 }
 
-div.text-news .category-news {
+.event-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-container-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.event-container-title span {
+    font-size: 1.6em;
+    color: #000000;
+}
+
+.event-container-content {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-news,
+.event-date {
     margin-top: 16px;
     font-size: 12px;
     font-weight: bold;
+}
+
+.event-card {
+    margin: auto;
+    width: 20%;
+    padding: 24px;
+}
+
+.event-description {
+    margin-top: 8px;
+    font-size: 16px;
 }
