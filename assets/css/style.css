@@ -141,8 +141,7 @@ section {
     flex-basis: 30%;
 }
 
-.text-news,
-.text-about {
+.text-news {
     display: flex;
     flex-direction: column;
     padding: 24px 24px 24px 24px;
@@ -251,4 +250,12 @@ h3 {
 .admin-description {
     margin-top: 8px;
     font-size: 16px;
+}
+
+.text-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 24px 24px 24px 24px;
 }
