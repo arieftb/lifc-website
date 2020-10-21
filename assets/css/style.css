@@ -9,6 +9,11 @@ body {
     background-color: #ba0006;
 }
 
+footer {
+    margin-top: 24px;
+    padding: 24px;
+}
+
 a {
     text-decoration: none;
 }
@@ -16,6 +21,11 @@ a {
 p {
     color: #000000;
     font-size: 18px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
 }
 
 button {
@@ -259,3 +269,4 @@ h3 {
     height: 100%;
     padding: 24px 24px 24px 24px;
 }
+
